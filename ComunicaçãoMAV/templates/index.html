@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PAGE settings -->
+  <link rel="icon" href="https://templates.pingendo.com/assets/Pingendo_favicon.ico">
+  <title>Industria 4.0</title>
+  <meta name="author" content="Pingendo">
+  <!-- CSS dependencies -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='elegant.css')}}" type="text/css"> </head>
+  
+<body id="Industria 4.0">
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="nav nav-tabs w-100">
+            <li class="nav-item w-15">
+              <a class="nav-link" href="login">Login
+                <br> </a>
+            </li>
+            <li class="nav-item w-15">
+              <a href="compras" class="nav-link">Buy </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 text-center my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-3 text-capitalize">Industria 4.0</h1>
+          <p class="lead text-light">The future is now
+            <br> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="py-5 text-center text-white opaque-overlay h-50" style="background-image: url(&quot;{{url_for('static', filename='assets/styleguide/planodefundo.jpg')}}&quot;);">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 p-4 col-lg-12 col-xl-11"></div>
+      </div>
+    </div>
+  </div>
+  <div class="p-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 my-4">
+          <h2>Design By
+            <br> </h2>
+          <hr> </div>
+      </div>
+    </div>
+  </div>
+  <div class="align-items-center py-2">
+    <div class="container">
+      <div class="row"> </div>
+      <div class="row w-100 m-0 text-center justify-content-center">
+        <div class="col-md-3 w-50">
+            
+          <img class="img-fluid rounded-circle p-3" src="{{ url_for('static', filename='assets/styleguide/allan.png')}}" alt="Card image">
+          <p class="">Allan Loçano
+            <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+            <br> </p>
+        </div>
+        <div class="col-md-3 w-50">
+           
+          <img class="img-fluid rounded-circle p-3" src="{{ url_for('static', filename='assets/styleguide/murilo.PNG')}}" alt="Card image">
+          <p class="">Murilo Rodrigues</p>
+        </div>
+        <div class="col-md-3 w-50">
+            
+          <img class="img-fluid rounded-circle p-3" src="{{ url_for('static', filename='assets/styleguide/vinegro.JPG')}}" alt="Card image">
+          <p class="">Vinicius Aguiar</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 10px;right:10px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:180px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo&nbsp;&nbsp;
+    <img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16">
+  </pingendo>
+</body>
+
+</html>
